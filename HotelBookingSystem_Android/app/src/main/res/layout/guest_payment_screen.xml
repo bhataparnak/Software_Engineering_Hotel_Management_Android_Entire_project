@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Payment Screen"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="CVV"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentCVV"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/lstTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Name on Card"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/assign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Billing Address"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentAddr"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/assignm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="City"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentCity"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/assignmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="State"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentState"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/assignmasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="ZIPCODE"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/paymentZip"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:id="@+id/paymentPay"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="PAY"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/paymentHome"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="Home"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/paymentLogout"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="Logout"
+            android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+</ScrollView>

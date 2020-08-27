@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/admin_viewTextGM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="View Selected Guest/Manager Screen"
+            android:textColor="#03A9F4"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Username"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_userGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/pwdTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Password"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_pwdGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Firstname"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_firstGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/lstTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Lastname"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_lastGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/addTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Street Address"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_staddrGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/cityTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="City"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_cityGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/stateTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="State"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_stateGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/zipTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Zipcode"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_zipGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Email"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_emailGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/phnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Phone"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_phoneGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:id="@+id/creditName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Role"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/admin_roleGM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+
+        <Button
+            android:id="@+id/admin_modifyGM"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="@string/register3"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/admin_deleteGM"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="@string/register4"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/adminViewHome"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="HOME"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/adminViewLogout"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ff8819"
+            android:text="LOGOUT"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+</ScrollView>

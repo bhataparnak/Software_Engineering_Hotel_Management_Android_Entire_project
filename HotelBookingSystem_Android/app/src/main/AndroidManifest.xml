@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelbookingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".custom_list"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registrationScreen" />
+        <activity android:name=".userHomeScreen" />
+        <activity android:name=".managerHomescreen" />
+        <activity android:name=".adminHomeScreen" />
+        <activity android:name=".viewProfile" />
+        <activity android:name=".managerProfile" />
+        <activity android:name=".searchGusetManager" />
+        <activity android:name=".adminViewGuestManager" />
+        <activity android:name=".adminProfile" />
+        <activity android:name=".guestViewReservationSummary" />
+        <activity android:name=".searchRoomScreen" />
+        <activity android:name=".roomListScreen" />
+        <activity android:name=".viewRoomScreen" />
+        <activity android:name=".Searchroom" />
+        <activity android:name=".Available_rooms" />
+        <activity android:name=".reserveRoomScreen" />
+        <activity android:name=".pendingRoomScreen" />
+        <activity android:name=".paymentScreen" />
+        <activity android:name=".confirmationScreen" />
+        <activity android:name=".reservation_summary_guest_Activity" />
+        <activity android:name=".reservation_summary_manager_Activity" />
+        <activity android:name=".Modify_Reservation_Guest_Activity" />
+        <activity android:name=".main_activity_2" />
+        <activity android:name=".List_of_Reservations_Guest_Activity" />
+        <activity android:name=".List_of_Reservations_Activity" />
+        <activity android:name=".Details_of_Reservation_Guest_Activity" />
+        <activity android:name=".Details_of_Reservation_Activity" />
+        <activity android:name=".ModifyRoom" />
+
+    </application>
+
+</manifest>

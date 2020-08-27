@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Hotel Booking System</string>
+
+    <string-array name="HName">
+        <item>Arlington</item>
+        <item>Dallas</item>
+        <item>Irving</item>
+
+    </string-array>
+
+    <string-array name="rType">
+        <item>Standard</item>
+        <item>Deluxe</item>
+        <item>Suite</item>
+    </string-array>
+
+    <string-array name="noOfRooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="title_activity_list_of__resrvation">List_of_Resrvation</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+
+
+
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">MODIFY</string>
+    <string name="register2">REGISTER</string>
+    <string name="register3">MODIFY</string>
+    <string name="register4">DELETE</string>
+    <string name="register_now">Register</string>
+    <string name="grsViewReservation">View Reservation</string>
+    <string name="listLay">VIEW</string>
+    <string name="mm_yy">MM/YY</string>
+    <string-array name="CC_array">
+        <item>Mastercard</item>
+        <item>Visa</item>
+        <item>Discover</item>
+    </string-array>
+
+
+    <string name="view_reservations">View Reservations</string>
+    <string name="view_available_rooms">View Available Rooms</string>
+    <string name="search_room">Search Room</string>
+    <string name="view_profile">View Profile</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="edit">Edit</string>
+    <string name="enter_new_room_number">Enter New Room Number</string>
+    <string name="enter_new_price">Enter New Price</string>
+    <string name="enter_room_number">Enter Room Number</string>
+    <string name="search">Search</string>
+    <string name="enter_time">Enter Time</string>
+    <string-array name="Room_type">
+        <item>Standard</item>
+        <item>Deluxe</item>
+        <item>Suite</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="Sort_room_type">
+        <item>Sort</item>
+        <item>Standard</item>
+        <item>Deluxe</item>
+        <item>Suite</item>
+    </string-array>
+    <string-array name="Room_status">
+        <item>Available</item>
+        <item>Unavailable</item>
+    </string-array>
+</resources>
+
