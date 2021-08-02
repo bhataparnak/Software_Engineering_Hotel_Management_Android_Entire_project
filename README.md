@@ -1,4 +1,4 @@
-# Software_Engineering_Hotel_Management_Android_Entire_project
+# Hotel management and booking system using Android, Java, and XML
 
 Developed an android app for hotel management and booking system. The focus was not only on the android app but also on the process of developing the application. Application development included the various stages of the agile life cycle development from project analysis to application development.
 
